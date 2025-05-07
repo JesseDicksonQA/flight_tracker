@@ -1,0 +1,53 @@
+Please perform a comprehensive analysis of my Flight Deal Finder project. Follow these steps:
+
+1. Examine the project structure:
+   - List all directories and subdirectories
+   - Identify all Python files (.py) and their locations
+   - Note any configuration files (e.g., .env, requirements.txt)
+   - Locate and read the README.md file
+
+2. For each Python file:
+   - Analyze the imports to understand dependencies
+   - Identify the main classes and functions
+   - Summarize the purpose of each file
+   - Note any TODO comments or areas marked for improvement
+
+3. Pay special attention to:
+   - main.py: The entry point of the application
+   - pages/google_sheet.py: Interaction with Google Sheets
+   - pages/flight_api.py: Flight search functionality
+   - utils/email_sender.py: Email notification system
+
+4. Examine the README.md:
+   - Note the project description, features, and setup instructions
+   - Identify any discrepancies between the README and the actual code
+
+5. Check the requirements.txt file:
+   - List all dependencies and their versions
+
+6. Look for any configuration or environment variables:
+   - Identify where API keys and sensitive information are stored
+   - Note how these are accessed in the code
+
+7. Analyze the overall application flow:
+   - Understand how the different components interact
+   - Identify any potential bottlenecks or areas for optimization
+
+9. Based on this analysis:
+   - Suggest the best approach to implement the requested change
+   - Identify any other parts of the code that might need modification to accommodate this change
+   - Propose any additional improvements or features that could enhance the project
+
+Please provide a detailed report of your findings and recommendations based on this analysis. This will help ensure that you have an up-to-date and comprehensive understanding of the project before we proceed with implementing the changes.
+
+
+using putty
+get to the location in synology drive ds918+
+cd "/volume1/Main Shared Space/Code_for_tomorrow/finding_the_one_piece"
+
+run script
+bash run_flight_checker.sh
+
+or
+from anywhere in putty
+bash "/volume1/Main Shared Space/Code_for_tomorrow/finding_the_one_piece/run_flight_checker.sh"
